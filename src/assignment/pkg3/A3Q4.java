@@ -18,9 +18,6 @@ public class A3Q4 {
     public int countingSort(int[] array){
         int[] spot = new int[101];
         for(int i = 0; i <array.length;i++){
-            spot[i]= i;   
-        }
-        for(int i = 0; i <array.length;i++){
                spot[array[i]] = spot[array[i]]+1;
         }
         
