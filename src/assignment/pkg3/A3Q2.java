@@ -14,7 +14,7 @@ public class A3Q2 {
 
     /**
      * @param args the command line arguments
-     */
+     */ 
     public int smallestMissingNumber(int[] array){
         for(int i = 0; i < array.length;i++){
             if(array[i] != i){

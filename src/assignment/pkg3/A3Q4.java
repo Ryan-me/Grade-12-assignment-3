@@ -24,22 +24,21 @@ public class A3Q4 {
             
         }
         for(int f = 0; f <array.length;f++){
-        System.out.println(array);
+        System.out.println(array[f]);
         }
         return 0;
     }
     public static void main(String[] args) {
         A3Q4 test = new A3Q4();
         
-        int[] numb = new int[101];
-        numb[0] = 15;
-        for(int j = 1; j <numb.length;j++){
-            if(numb[j-1]%10 <=2){
-            numb[j] = numb[j-1]/2+1;
-           }else{
-             numb[j] = numb[j-1]*2+1;
-            }
+        int[] numb = new int[10];
+        for(int i = 1; i <numb.length;i++){
+            numb[i]= (int)(Math.random()*100);
         }
+        for(int f = 0; f <numb.length;f++){
+        System.out.println(numb[f]);
+        }
+        System.out.println("after");
         int idc =test.countingSort(numb);
     }
 }

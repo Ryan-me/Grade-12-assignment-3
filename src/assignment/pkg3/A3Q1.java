@@ -12,7 +12,7 @@ public class A3Q1 {
 
     /**
      * @param args the command line arguments
-     */
+     */ 
      public void swap(int[] array, int p1,int p2){
         int temp = array[p1];
         array[p1] = array[p2];

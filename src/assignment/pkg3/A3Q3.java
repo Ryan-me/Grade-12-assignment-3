@@ -14,7 +14,7 @@ public class A3Q3 {
 
     /**
      * @param args the command line arguments
-     */
+     */ 
     public int countOnes(int[] array, int ones,int count){
         if(count == array.length){
             return ones;
