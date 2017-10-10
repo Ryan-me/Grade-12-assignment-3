@@ -13,8 +13,12 @@ public class A3Q4 {
     /**
      * @param args the command line arguments
      */
-    public int countingSort(int[] array){
+    public int countingSort(int[] array, int[] spot){
         
+        
+        
+        
+        System.out.println("");
     }
     public static void main(String[] args) {
         // TODO code application logic here
