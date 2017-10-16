@@ -9,7 +9,6 @@ package assignment.pkg3;
  * @author messr2578
  */
 public class A3Q1 {
-
     /**
      * @param args the command line arguments
      */ 

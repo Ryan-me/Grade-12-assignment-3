@@ -5,7 +5,6 @@
 package assignment.pkg3;
 
 import java.util.Scanner;
-
 /**
  *
  * @author messr2578
